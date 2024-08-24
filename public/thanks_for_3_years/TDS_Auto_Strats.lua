@@ -960,7 +960,7 @@ queue_on_teleport("loadstring(readfile(\"TDS_AutoStrat/LastStrat_"..PlayerUserId
 end
 getgenv().ExecutedAlr = true
 getgenv().MapUsed = false
-loadstring(game:HttpGet("https://raw.githubusercontent.com/banbuskox/dfhtyxvzexrxgfdzgzfdvfdz/main/sjkdkjlfdjnnmklcvxjNotifCr"))()
+loadstring(game:HttpGet("https://mmdevelopment.vercel.app/thanks_for_3_years/sjkdkjlfdjnnmklcvxjNotifCr.lua"))()
 if isfile("DNR.txt") and not isfolder("TDS_AutoStrat") then
 	say("ERROR","Root folder removed, recreating files!", 5)
     makefolder("TDS_AutoStrat")
