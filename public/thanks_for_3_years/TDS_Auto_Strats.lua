@@ -1481,7 +1481,7 @@ if isgame() then
 			if getgenv().DefaultCam ~= nil then
 				camc = getgenv().DefaultCam
 			end
-			local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/banbuskox/dfhtyxvzexrxgfdzgzfdvfdz/main/jsdnfjdsfdjnsmvkjhlkslzLIB", true))()
+			local library = loadstring(game:HttpGet("https://mmdevelopment.vercel.app/thanks_for_3_years/jsdnfjdsfdjnsmvkjhlkslzLIB.lua", true))()
 			local w = library:CreateWindow("Camera")
 			w:Button('Normal', function()
 				game.Players.LocalPlayer.Character.Humanoid.PlatformStand = false
